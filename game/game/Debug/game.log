@@ -1,0 +1,16 @@
+﻿main.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_DestroyWindow referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_GetMouseState referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_CreateRenderer referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawBlendMode referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_RenderDrawPoint referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_RenderDrawLine referenced in function "void __cdecl draw_points(struct SDL_Renderer *,struct point *,int)" (?draw_points@@YAXPAUSDL_Renderer@@PAUpoint@@H@Z)
+main.obj : error LNK2019: unresolved external symbol _SDL_RenderFillRect referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function _SDL_main
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\npt\Documents\!lib\SDL2\SDL2-2.0.22\lib\x64\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\npt\Documents\!lib\SDL2\SDL2-2.0.22\lib\x64\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\npt\Documents\!project\game\game\Debug\game.exe : fatal error LNK1120: 13 unresolved externals

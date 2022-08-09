@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\npt\Documents\!project\game\game\game\main.cpp(16,66): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\npt\Documents\!project\game\game\game\main.cpp(16,52): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\npt\Documents\!project\game\game\game\main.cpp(16,38): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\npt\Documents\!project\game\game\game\main.cpp(16,30): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  time.cpp
+  Generating Code...
+  game.vcxproj -> C:\Users\npt\Documents\!project\game\game\x64\Debug\game.exe
